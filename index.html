@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abs-olute Fitness</title>
+    <title>Absolute Fitness</title>
     <!--<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>-->
     <link rel="stylesheet" href="assets/fontawesome/css/all.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -18,11 +18,11 @@
             <div class="row">
                 <div class="col px-0">
                     <nav class="navbar navbar-expand-lg shift navbar-light navbar-abs px-0 py-0">
-                        <a class="navbar-brand py-2 pl-0 py-md-2 pl-md-0" href="#">
+                        <a class="navbar-brand py-2 pl-0 py-md-2 pl-md-0" href="#cta-join">
                             <img class="header-logo" src="assets/images/abs-logo-sm-65x65.png" alt="Absolute Fitness Logo">
                         </a>
                         <span class="logo-text abs-text pl-2">Abs</span><span class="logo-text">olute Fitness</span>
-                        <div class="collapsed-menu collapse navbar-collapse pl-3 py-1 px-md-3 py-md-1 flex-row-reverse" id="navbarNav">
+                        <div class="navbar-collapse pl-3 py-1 px-md-3 py-md-1 flex-row-reverse" id="navbar-nav">
                             <ul class="navbar-nav text-center">
                                 <li class="nav-item px-2 px-xl-3">
                                     <a class="nav-link" href="#home">Home</a>
@@ -31,10 +31,10 @@
                                     <a class="nav-link" href="#facility">Facility</a>
                                 </li>
                                 <li class="nav-item px-2 px-xl-3">
-                                    <a class="nav-link" href="classes">Classes</a>
+                                    <a class="nav-link" href="#classes">Classes</a>
                                 </li>
                                 <li class="nav-item px-2 px-xl-3">
-                                    <a class="nav-link" href="#persoal">Personal Trainers</a>
+                                    <a class="nav-link" href="#personal">Personal Trainers</a>
                                 </li>
                             </ul>
                         </div>
@@ -46,18 +46,25 @@
     
     <!-- Carousel -->
     <section class="featured-carousel">
-        <div id="featured-carousel-controls" class="carousel slide" data-ride="carousel">
+        <div id="featured-carousel-controls" class="carousel slide" data-ride="carousel" data-interval="3000">
             <div class="carousel-inner">
+
+                <!--
+                    Note: Doubling up of the anchor tags for each carousel image was intentional.
+                    It was done to make it more obvious that there was a call to action.
+                -->
 
                 <!-- Carousel item 1 -->
                 <div class="carousel-item active">
                     <div class="image-container">
                         <div class="h-100 w-100 d-inline-block">
-                            <img class="center-image" src="assets/images/carousel-banner-01-man.jpg" alt="First slide">
+                            <a href="#cta-join">
+                                <img class="center-image" src="assets/images/carousel-banner-01-man.jpg" alt="man workout">
+                            </a>
                         </div>
                     </div>
                     <div class="carousel-caption d-block">
-                        <h3 class="pull-left">Nothing will work unless you do...</h3>
+                        <h3 class="pull-left">Nothing will work unless you do. <a href="#cta-join">Get to work today!</a></h3>
                     </div>
                 </div>
 
@@ -65,11 +72,13 @@
                 <div class="carousel-item">
                     <div class="image-container">
                         <div class="h-100 w-100 d-inline-block">
-                            <img class="center-image" src="assets/images/carousel-banner-02-woman.jpg" alt="Second slide">
+                            <a href="#cta-join">
+                                <img class="center-image" src="assets/images/carousel-banner-02-woman.jpg" alt="woman workout">
+                            </a>
                         </div>
                     </div>
                     <div class="carousel-caption d-block">
-                        <h3 class="pull-left">Making excuses burns zero calories per hour...</h3>
+                        <h3 class="pull-left">Making excuses burns zero calories per hour. <a href="#cta-join">Burn some calories today!</a></h3>
                     </div>
                 </div>
 
@@ -77,31 +86,23 @@
                 <div class="carousel-item">
                     <div class="image-container">
                         <div class="h-100 w-100 d-inline-block">
-                            <img class="center-image" src="assets/images/carousel-banner-03-dumbells.jpg" alt="Third slide">
+                            <a href="#cta-join">
+                                <img class="center-image" src="assets/images/carousel-banner-03-dumbells.jpg" alt="gym workout">
+                            </a>
                         </div>
                     </div>
                     <div class="carousel-caption d-block">
-                        <h3 class="pull-left">A one hour workout is 4% of your day. No excuses.</h3>
+                        <h3 class="pull-left">A one hour workout is 4% of your day. No excuses. <a href="#cta-join">Spend an hour with us!</a></h3>
                     </div>
                 </div>
-
             </div>
-
-            <a class="carousel-control-prev" href="#featured-carousel-controls" role="button" data-slide="prev">
-                <ion-icon name="ios-arrow-dropleft" size="large"></ion-icon>
-                <span class="sr-only">Previous</span>
-            </a>
-
-            <a class="carousel-control-next" href="#featured-carousel-controls" role="button" data-slide="next">
-                <ion-icon name="ios-arrow-dropright" size="large"></ion-icon>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
     </section>
 
     <section id="facility" data-type="anchor">
         <div class="container">
-            <div class="row mt-5">
+            <h1 class="text-center">Industry Leading Gym Facility</h1>
+            <div class="row icons-row-1">
                 <div class="col-12 col-md-4 text-center">
                     <figure>
                         <img src="assets/images/people-service.png">
@@ -124,17 +125,17 @@
                         <img src="assets/images/personal-trainer.png">
                         <figcaption>
                            Whether you need motivation or have goals you would like to achieve, we have a highly qualified personal
-                           training staff eager to help you achieve those goals.
+                           training staff eager to help.
                         </figcaption>
                     </figure>
                 </div>
             </div>
-            <div class="row mt-4">
+            <div class="row mt-1">
                 <div class="col-12 col-md-4 offset-md-2 text-center">
                     <figure>
                         <img src="assets/images/fitness-programs.png">
                         <figcaption>
-                            Choose a fitness programme from our patented "Fitness Menu Programme". If you don't find one you like,
+                            Choose a fitness programme from our patented "Fitness Programme Menu". If you don't find one you like,
                             we will work with you to create a bespoke programme just for you.
                         </figcaption>
                     </figure>
@@ -152,15 +153,151 @@
         </div>
     </section>
 
+    <section class="featured-posts container mt-4">
+        <article class="featured-post row justify-content-center align-items-center mb-3">
+            <div class="col-sm-6 col-md-4">
+                <img src="assets/images/weights-equipment.jpg" width="100%" alt="gym facility 1">
+            </div>
+            <div class="col-sm-6 col-md-5 ml-3">
+                <h3>Enhancing Your Workout Experience</h3>
+                <p>
+                    In addition to our main facility, we have a weight room annex that is open and sunny, enriching 
+                    your workout experience. 
+                </p>
+                <a class="btn btn-join-abs" href="#cta-join">Join Absolute Fitness now!</a>
+            </div>
+        </article>
+    </section>
+
+    <section class="featured-posts container mb-5">
+        <article class="featured-post row justify-content-center align-items-center">
+            <div class="col-sm-6 col-md-5 text-right mr-3">
+                <h3>Don't Forget the Cardio</h3>
+                <p>
+                    <span class="abs-text">Abs</span>olute Fitness knows that there is nothing better for winding down after a long day of work than a
+                    good cardio workout. We have recently just doubled the number of cardio machines available so you don't
+                    have to wait, even at the busiest times.  
+                </p>
+                <a class="btn btn-join-abs" href="#cta-join">Join Absolute Fitness now!</a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <img src="assets/images/cardio-equipment.jpg" width="100%" alt="gym facility 2">
+            </div>
+        </article>
+    </section>
+
+    <hr>
+
     <section id="classes" data-type="anchor">
         <div class="container">
-            <div class="row mt-5">
-            </div>
+            <h1 class="text-center">Mix Up Your Workout With a Class</h1>
         </div>
     </section>
     
-    <section id="personal" data-type="anchor">
+    <section class="featured-posts container">
+        <article class="featured-post row justify-content-center align-items-center mb-3">
+            <div class="col-sm-6 col-md-4">
+                <img src="assets/images/classes-02.jpg" width="100%" alt="workout classes 1">
+            </div>
+            <div class="col-sm-6 col-md-5 ml-3">
+                <h3>Wide Selection of Classes</h3>
+                <p>
+                    Our industry leading instructors have helped us build an array of more 
+                    than 70 offerings. In addition, we understand that there is no schedule 
+                    that fits everyone. To that end, classes are offered from early morning until 
+                    the late evening.
+                </p>
+                <a class="btn btn-join-abs" href="#cta-join">Join Absolute Fitness now!</a>
+            </div>
+        </article>
+    </section>
 
+    <section class="featured-posts container mb-5">
+        <article class="featured-post row justify-content-center align-items-center">
+            <div class="col-sm-6 col-md-5 text-right mr-3">
+                <h3>Men Not Allowed!</h3>
+                <p>
+                    We understand that some women prefer working out with and amongst women only. 
+                    In addition to a gym dedicated for women only, <span class="abs-text">Abs</span>olute Fitness
+                    offers more than 20 female only classes.
+                </p>
+                <a class="btn btn-join-abs" href="#cta-join">Join Absolute Fitness now!</a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <img src="assets/images/classes-01.jpg" width="100%" alt="workout classes 2">
+            </div>
+        </article>
+    </section>
+
+    <hr>
+
+    <section id="personal" data-type="anchor">
+        <div class="container">
+            <h1 class="text-center">Highly Qualified Personal Trainers</h1>
+        </div>
+    </section>
+
+    <section class="featured-posts container mt-4">
+        <article class="featured-post row justify-content-center align-items-center mb-3">
+            <div class="col-sm-6 col-md-4">
+                <img src="assets/images/pt-01.jpg" width="100%" alt="personal-training 1">
+            </div>
+            <div class="col-sm-6 col-md-5 ml-3">
+                <h3>Achieve Your Goals</h3>
+                <p>
+                    We all have workout goals that we are trying to achieve. However, sometimes we need 
+                    a little help or guidance. Let our personal trainers help you achieve your goals.
+                </p>
+                <a class="btn btn-join-abs" href="#cta-join">Join Absolute Fitness now!</a>
+            </div>
+        </article>
+    </section>
+
+    <section class="featured-posts container mb-5">
+        <article class="featured-post row justify-content-center align-items-center">
+            <div class="col-sm-6 col-md-5 text-right mr-3">
+                <h3>Need a Little Motivation?</h3>
+                <p>
+                    Sometimes we all need a little more motivation to get us through our workout and achieve our goals. 
+                    Our personal trainers have a combined 40 years of experience. They can motivate like no others!
+                </p>
+                <a class="btn btn-join-abs" href="#cta-join">Join Absolute Fitness now!</a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <img src="assets/images/pt-02.jpg" width="100%" alt="personal-training 2">
+            </div>
+        </article>
+    </section>
+
+    <hr>
+
+    <section id="cta-join" data-type="anchor" class="mb-5">
+        <div class="container">
+            <h1 class="text-center">Join Today!</h1>
+            <div class="row justify-content-center">
+                <form action="" class="form-container col-12 col-md-6">
+                    <div class="form-group">
+                        <label for="first-name">First Name *</label>
+                        <input type="text" class="form-control text-capitalize" id="first-name" minlength="1" maxlength="40" placeholder="Enter first name">
+                    </div>
+                    <div class="form-group">
+                        <label for="surname">Surname *</label>
+                        <input type="text" class="form-control text-capitalize" minlength="1" maxlength="40" id="surname" placeholder="Enter surname">
+                    </div>
+                    <div class="form-group">
+                        <label for="email-addr">Email *</label>
+                        <input type="email" class="form-control text-lowercase" minlength="3" maxlength="40" id="email-addr" placeholder="Enter email address">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="phone" class="form-control" maxlength="19" id="phone" placeholder="Enter phone number">
+                    </div>
+                    <div class="form-group text-center">
+                        <button type="button" class="btn btn-abs w-50 mt-2">Join Now!</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </section>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
