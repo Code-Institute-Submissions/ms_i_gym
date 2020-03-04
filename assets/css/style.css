@@ -38,7 +38,7 @@ body, h1, h2, h3, h4, h5, p, a, label, small, input, ul>li {
 }
 
 body {
-  	color: #4D7488;
+  	color: #000000;
 }
 
 h2 {
@@ -126,6 +126,11 @@ small {
 	color: var(--theme-red)
 }
 
+/* Bring it closer to icon image that has transparent space below figure */
+figcaption {
+    margin-top: -15px;
+}
+
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
@@ -134,7 +139,7 @@ small {
 }
 
 .navbar-abs .navbar-nav .nav-link {
-	color: #4D7488;
+	color: #000000;
 	font-family: 'Titillium Web'/*, sans-serif*/;
 	font-size: 11pt;
 	font-weight: 400;
