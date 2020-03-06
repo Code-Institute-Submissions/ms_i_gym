@@ -88,6 +88,7 @@ There is immense potential improvement to this site. Some that come to mind are:
 
 - Sticky navbar. I tried and tried, but the way I have designed my navbar, I was getting bizarre behaviour. Normall I would work persevere but I am running out
 of time to submit this project.
+- Using different carousel images -- or rather, no carousel for smaller devices -- especially phones.
 - A dynamic widget that appears as you scroll down the page that when clicked, will take you to the top
 - Email behind the form. It is just a blank for for the sake of fulfilling the project requirements. Upon submission, it does pop up a modal thanking the visitor
 for their interest in joining the gym.
@@ -106,7 +107,7 @@ for their interest in joining the gym.
 
 ## Deployment
 
-- Used GitHub Pages to deploy the final version (https://mrbrown2207.github.io/msigym/).
+- Used GitHub Pages to deploy the final version (https://mrbrown2207.github.io/ms_i_gym/).
 
 ## Credits
 
