@@ -181,6 +181,26 @@ figcaption {
     text-decoration: none;
 }
 
+.btn-join-abs-caption {
+    color: var(--theme-red);
+    font-family: 'Archivo', sans-serif;
+    border-color: transparent;
+    background: transparent;
+    min-width: 100px;
+    border-radius: 28px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.btn-join-abs-caption:hover {
+    color: #FFFFFF;
+    border-color: var(--theme-red);
+    background: var(--theme-red);
+    text-decoration: none;
+}
+
 .btn-abs:hover {
     color: #FFFFFF;
     box-shadow: 0 2px 5px 0 #dd898d;
