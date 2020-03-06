@@ -38,7 +38,6 @@ CTA you see a cool effect where the text becomes a button.
 - **Classes** This is similar to the "Facility" section in that there are a couple of photos and blurbs talking about classes the gym offers. And again, a CTA for each.
 - **Personal** which takes you to the top of the page and consists of a navbar and carousel images. There are 3 carousel images and each has a cal
 
-
 ## Technologies
 
 #### Languages Frameworks Libraries Tools
