@@ -130,7 +130,7 @@ figcaption {
 	font-size: 11pt;
 	font-weight: 400;
 	text-transform: uppercase;
-	padding: 15px 0;
+    padding: 15px 0;
 }
 
 .navbar-light .navbar-toggler {
