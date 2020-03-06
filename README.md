@@ -26,6 +26,7 @@ This is a web site for a fictitious gym fulfilling the requirements for Mileston
 possible and motivate the visitor of the site to fill out a form registering their interest in the gym. To that end, there are cool photos and descriptions
 of various part of the gym as well as motivational sentences and photos in the carousel.
 
+
 ## UX Functionality and Navigation
 
 #### UX
@@ -59,6 +60,7 @@ training staff.
 In addition, every section has a CTA which takes you to the "Become a Member Today!" section in order to fill out a form and submit it to the gym's email account. 
 There is no email hooked up to this application.
 
+
 ## Technologies
 
 #### Languages Libraries
@@ -69,8 +71,7 @@ There is no email hooked up to this application.
 
 - [Bootstrap - v4.4.1](https://getbootstrap.com/docs/4.1/getting-started/introduction/ "Bootstrap Official Site")
 
-
-## Other Resources
+#### Other Resources
 
 I looked a various websites -- in particular, gym websites -- in order to get ideas for the general look and feel of the website. 
 I looked at at least 5 sites and determined what I thought looked good and what inspired me to want to join that gym. 
