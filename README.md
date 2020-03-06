@@ -106,7 +106,7 @@ for their interest in joining the gym.
 
 ## Deployment
 
-- Used GitHub Pages to deploy the final version (https://mrbrown2207.github.io/mrbmsII/).
+- Used GitHub Pages to deploy the final version (https://mrbrown2207.github.io/msigym/).
 
 ## Credits
 
