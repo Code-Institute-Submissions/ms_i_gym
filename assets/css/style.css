@@ -121,7 +121,6 @@ figcaption {
 # Navigation
 --------------------------------------------------------------*/
 .page-header {
-    /*border-top: 3px rgb(32, 36, 37) solid;*/
     border-top: 3px var(--theme-red) solid;
 }
 
