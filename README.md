@@ -29,10 +29,15 @@ possible and motivate the visitor of the site to fill out to the form which -- i
 
 #### Functionality and UX
 
-There site is a one page site where the menu takes you to different sections of the page with the navbar navigating to each of the sections. The sections are:
+There site is a one page site where the 4 menu items takes you to different sections of the page with the navbar navigating to each of the sections. The sections are:
 
-- [Home] which takes you to the top of the page and consists of a navbar and carousel images. There are 3 carousel images and each has a cal
-- [Facility] which takes you to the section under the carousel. This describes 
+- **Home** which takes you to the top of the page and consists of a navbar and carousel images. There are 3 carousel images and each has a cal
+- **Facility** which takes you to the section under the carousel. This has icons highlighting facility itself as well as services the gym offers. After that
+there is are photos of a couple of different areas of the gym with a blurb about about each section and a CTA underneath each blurb. If you highlight the
+CTA you see a cool effect where the text becomes a button.
+- **Classes** This is similar to the "Facility" section in that there are a couple of photos and blurbs talking about classes the gym offers. And again, a CTA for each.
+- **Personal** which takes you to the top of the page and consists of a navbar and carousel images. There are 3 carousel images and each has a cal
+
 
 ## Technologies
 
